@@ -1,0 +1,20 @@
+:root {
+  --main-blue: #7c5dfa;
+  --main-blue-hover: #9277ff;
+  --dark-blue: #1e2139;
+  --darker-blue: #252945;
+
+  --slate: #dfe3fa;
+  --darker-grey: #888eb0;
+  --green-grey: #7e88c3;
+  --dark-black: #0c0e16;
+
+  --main-red: #ec5757;
+  --peach: #ff9797;
+  --not-white: #f8f8fb;
+  --not-black: #141625;
+
+  --white: #fff;
+
+  --border-radius: 24px;
+}

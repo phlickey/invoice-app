@@ -1,0 +1,39 @@
+.button {
+  transition: background-color ease-out 0.15s;
+  background-color: var(--main-blue);
+  color: var(--white);
+
+  font-weight: 700;
+
+  border-radius: var(--border-radius);
+
+  padding: 8px;
+
+  border: none;
+
+  cursor: pointer;
+
+  display: grid;
+  grid-template-columns: auto auto;
+  place-content: center;
+  place-items: center;
+}
+
+.button:hover {
+  background-color: var(--main-blue-hover);
+}
+
+.icon {
+  color: var(--main-blue);
+  background-color: var(--white);
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  place-content: center;
+  place-items: center;
+  margin-right: 8px;
+}
+.textContainer {
+  padding: 8px;
+}
